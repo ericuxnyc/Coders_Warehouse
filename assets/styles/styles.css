@@ -1,0 +1,49 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+.nav-container {
+	background-color: #5e92b4;
+	display: flex;
+	width: 100%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #fff;
+}
+.nav-container a {
+	text-decoration: none;
+	color: #fff;
+}
+.nav-container div a:hover {
+	color: rgb(186, 250, 9);
+}
+h1 {
+	justify-items: flex-start;
+	margin-right: auto;
+	padding-left: 10px;
+}
+.btn-home {
+	margin-left: auto;
+	padding: 30px;
+}
+.btn-ruby {
+	padding: 30px;
+}
+div.btn-ruby a:hover {
+	background-color: #333333;
+}
+.btn-python {
+	padding: 30px;
+}
+.btn-javascript {
+	padding: 30px;
+}
+.btn-snippets {
+	padding: 30px;
+}
+.btn-deals {
+	padding: 30px;
+}
+.btn-others {
+	padding: 30px;
+}
